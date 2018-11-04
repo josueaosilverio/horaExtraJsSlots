@@ -1,0 +1,6 @@
+var score=0;var pontos=5;document.getElementById("play").onclick=jogar;document.getElementById("playAgain").onclick=jogar;document.getElementById("changeBet").onclick=changeBet;function jogar(){var aposta=Math.abs(document.getElementById("aposta").value);var numIgual=0;document.getElementById("intro").style.display="none";document.getElementById("jogo").style.display="block";var num1=Math.floor(Math.random()*10);var num2=Math.floor(Math.random()*10);var num3=Math.floor(Math.random()*10);if(num1==num2){numIgual++}
+    if(num1==num3){numIgual++}
+    if(num2==num3){numIgual++}
+    if(numIgual==0){score-=aposta*2*pontos}else{score+=aposta*(Math.pow(pontos,numIgual))}
+    setTimeout(function(){document.getElementById("slot1").innerText=num1.toString();setTimeout(function(){document.getElementById("slot2").innerText=num2.toString();setTimeout(function(){document.getElementById("slot3").innerText=num3.toString();document.getElementById("score").innerText=score.toString()},300)},300)},300)}
+function changeBet(){document.getElementById("intro").style.display="block";document.getElementById("jogo").style.display="none"}
