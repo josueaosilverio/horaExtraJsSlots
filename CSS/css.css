@@ -1,0 +1,53 @@
+#intro {
+    width: 80vw;
+    position: relative;
+    margin: auto;
+    padding: 5vw;
+    top: 30vh;
+    display: block;
+
+}
+
+#jogo {
+    width: 80vw;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 30vh;
+    left: 10vw;
+    display: none;
+
+}
+
+#jogo div {
+    position: relative;
+    margin: 2vw;
+    width: 15vw;
+    height: 15vw;
+    line-height: 15vw;
+    font-size: 12vw;
+    font-weight: bold;
+    display: inline-block;
+    outline: solid grey;
+    text-align: center;
+}
+
+#playButtons {
+    display: block;
+}
+
+#jogo button {
+    position: relative;
+    display: inline-block;
+    left: 2vw;
+}
+
+#score {
+    position: fixed;
+    z-index: 10;
+    right: 5vw;
+    top: 5vh;
+    font-size: 2em;
+    font-weight: bold;
+
+}
