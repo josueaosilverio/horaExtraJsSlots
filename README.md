@@ -31,5 +31,5 @@ Os ficheiros para o exercício podem ser descarregados no link abaixo
 ### Slides da aula
 Os slides utilizados podem ser consultados no link abaixo
 
-[Link para os slides](https://slides.com/josuesilverio/hora-extra-js)
+[Link para os slides](https://slides.com/josuesilverio/hora-extra-js-1920/fullscreen)
 
