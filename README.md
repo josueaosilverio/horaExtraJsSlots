@@ -21,7 +21,7 @@ Disclaimer: Não incentivamos o jogo a dinheiro na vida real. Nas palavras de Ma
 ### Exercício completo
 O exercício completo pode ser consultado no link abaixo.
 
-[Link para o completo](https://josueaosilverio.github.io/horaExtraJs18191/)
+[Link para o completo](https://josueaosilverio.github.io/horaExtraJsSlots/)
 
 ### Ficheiros para o exercício
 Os ficheiros para o exercício podem ser descarregados no link abaixo
